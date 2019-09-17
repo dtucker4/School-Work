@@ -1,0 +1,1 @@
+#include "as3.h"int compareInt(void* num1, void* num2){	//	Local Definitions 	int key1;	int key2;	//	Statements 	key1 = *(int*)num1;	key2 = *(int*)num2;	if (key1 < key2)		return -1;	if (key1 == key2)		return 0;	return +1;}	// compareInt 
