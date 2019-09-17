@@ -1,0 +1,9 @@
+INSERT INTO inventory(UPC, store_id)
+SELECT
+    I.UPC,
+    S.store_id
+FROM items AS I
+JOIN store AS S
+
+
+-- will populate inventory with all possible store/inventory options
